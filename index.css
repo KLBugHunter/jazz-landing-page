@@ -49,7 +49,7 @@ header nav a:nth-child(2n-1){
 .buttom{
     background-color: var(--cor01);
     border: 2px solid var(--corB);
-    box-shadow: 4px 4px 8 var(--corB);
+    box-shadow: 4px 4px 0 var(--corB);
     color: var(--corB);
     display: block;
     font-size: 1.25rem;
@@ -113,6 +113,67 @@ h2{
     width: 40px;
 }
 
+.courses-section{
+    padding-bottom: 8rem;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.25rem;
+    margin-top: -8rem;
+    margin-bottom: 4rem;
+}
+
+.card{
+    background-color: var(--cor01);
+    border: 2px solid var(--corB);
+    box-shadow: 4px 4px 0 var(--corB);
+    max-width: 17rem;
+    padding: 2rem 0 0 2rem;
+}
+
+.card:nth-child(2n){
+    align-self: end;
+    background-color: var(--cor02);
+}
+
+.card strong{
+    display: block;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.card a{
+    display: block;
+    margin: 3rem 0 0 auto;
+    width: fit-content;
+}
+
+footer{
+    border-bottom: 0;
+    padding: 1rem 1.25rem 4rem;
+}
+
+footer nav a{
+    display: block;
+    padding-left: 0;
+}
+
+.newsform label{
+    display: block;
+    font-size: 1.5rem;
+}
+
+.newsform input{
+    border: 2px solid var(--corB);
+    box-shadow: 4px 4px 0 var(--corB);
+    font-size: 1.5rem;
+    padding: .5rem;
+    width: 100%;
+}
+
 .mt-1{
     margin-top: 1rem;
 }
@@ -141,3 +202,5 @@ h2{
 .text-center{
     text-align: center;
 }
+
+/*resp...*/
